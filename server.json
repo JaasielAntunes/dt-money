@@ -1,7 +1,7 @@
 {
   "transactions": [
     {
-      "id": 1,
+      "id": "1",
       "description": "Desenvolvimento de site",
       "type": "income",
       "category": "Venda",
@@ -9,7 +9,7 @@
       "createdAt": "2024-03-29T19:36:44.505Z"
     },
     {
-      "id": 2,
+      "id": "2",
       "description": "Hambúrguer",
       "type": "outcome",
       "category": "Alimentação",
@@ -17,7 +17,7 @@
       "createdAt": "2024-03-29T19:30:44.505Z"
     },
     {
-      "id": 3,
+      "id": "3",
       "description": "Ignite Rocketseat",
       "type": "outcome",
       "category": "Educação",
@@ -30,7 +30,7 @@
       "category": "Venda",
       "type": "income",
       "createdAt": "2024-03-30T13:26:57.560Z",
-      "id": 4
+      "id": "4"
     },
     {
       "description": "Pastel",
@@ -38,7 +38,7 @@
       "category": "Alimentação",
       "type": "outcome",
       "createdAt": "2024-03-30T13:30:57.560Z",
-      "id": 5
+      "id": "5"
     },
     {
       "description": "Iogurte de Banana",
@@ -46,7 +46,39 @@
       "category": "Alimentação",
       "type": "outcome",
       "createdAt": "2024-03-30T13:38:57.560Z",
-      "id": 6
+      "id": "6"
+    },
+    {
+      "id": "eba8",
+      "description": "Fatura NuBank",
+      "price": 855,
+      "category": "Contas",
+      "type": "outcome",
+      "createdAt": "2024-03-29T19:09:08.796Z"
+    },
+    {
+      "id": "e647",
+      "description": "Salário",
+      "price": 1300,
+      "category": "Contas",
+      "type": "income",
+      "createdAt": "2024-03-29T19:09:32.837Z"
+    },
+    {
+      "id": "46b1",
+      "description": "Saldo NuBank",
+      "price": 1100,
+      "category": "Contas",
+      "type": "income",
+      "createdAt": "2024-04-10T14:30:40.768Z"
+    },
+    {
+      "id": "fe7f",
+      "description": "Fatura NuBank",
+      "price": 835,
+      "category": "Contas",
+      "type": "outcome",
+      "createdAt": "2024-04-10T14:30:50.130Z"
     }
   ]
 }
