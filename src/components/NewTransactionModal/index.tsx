@@ -57,10 +57,17 @@ export function NewTransactionModal() {
     reset()
   }
 
+  const handlePriceChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    let value = e.target.value
+    if (value.length > 10) {
+      value = value.slice(0, 10)
+    }
+    e.target.value = value
+  }
+
   return (
     <Dialog.Portal>
       <Overlay />
-
       <Content>
         <Dialog.Title>Nova Transação</Dialog.Title>
 
@@ -73,18 +80,24 @@ export function NewTransactionModal() {
             type="text"
             placeholder="Descrição"
             required
+            autoComplete="off"
+            maxLength={25}
             {...register('description')}
           />
           <input
             type="number"
             placeholder="Preço"
             required
+            autoComplete="off"
             {...register('price', { valueAsNumber: true })}
+            onChange={handlePriceChange}
           />
           <input
             type="text"
             placeholder="Categoria"
             required
+            autoComplete="off"
+            maxLength={18}
             {...register('category')}
           />
 

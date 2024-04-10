@@ -14,11 +14,11 @@ export const SearchFormContainer = styled.form`
       color: ${(props) => props.theme['gray-500']};
     }
   }
-  button {
+  button[type='submit'] {
     display: flex;
     align-items: center;
     gap: 0.75rem;
-    border: 0;
+    border: none;
     padding: 1rem;
     background: transparent;
     border: 1px solid ${(props) => props.theme['green-300']};
@@ -38,5 +38,19 @@ export const SearchFormContainer = styled.form`
         color 0.2s,
         border-color 0.2s;
     }
+  }
+`
+export const ClearButton = styled.button`
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  color: red;
+  cursor: pointer;
+
+  &:hover {
+    color: #cc0000;
   }
 `
