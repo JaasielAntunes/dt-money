@@ -1,6 +1,6 @@
 import { ReactNode, useCallback, useEffect, useState } from 'react'
-import { api } from '../lib/axios'
 import { createContext } from 'use-context-selector'
+import { api } from '../lib/axios'
 
 interface Transaction {
   id: number
@@ -64,7 +64,7 @@ export function TransactionsProvider({ children }: TransactionsProviderProps) {
 
   useEffect(() => {
     fetchTransactions()
-  }, [])
+  }, [fetchTransactions])
 
   return (
     <TransactionsContext.Provider
