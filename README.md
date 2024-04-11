@@ -22,7 +22,7 @@ A aplicação não possui local storage, portanto os dados inseridos são perdid
 
 ---
 
-## 💻 Tecnologias utilizadas
+## 💻 Tecnologias
 
 - React e React-DOM
 - Hook Form
