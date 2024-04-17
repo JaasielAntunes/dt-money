@@ -27,6 +27,7 @@ A aplicação não possui local storage, portanto os dados inseridos são perdid
 - React e React-DOM
 - Hook Form
 - Radix UI
+- JavaScript
 - TypeScript
 - Vite
 - Styled Components
