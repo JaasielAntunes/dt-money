@@ -64,7 +64,7 @@ $ npm install
 $ npx json-server server.json
 ```
 
-6. Inicie o servidor em outro terminal:
+6. Inicie a aplicação em outro terminal:
 
 ```
 $ npm run dev
